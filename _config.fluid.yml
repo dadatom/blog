@@ -11,6 +11,15 @@ author: Da Da
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
+navbar:
+  blog_title: DaDa Blog
+  menu:
+    - { key: 'home', link: '/index.html', icon: 'iconfont icon-home-fill' }
+    - { key: 'archive', link: '/archives/index.html', icon: 'iconfont icon-archive-fill' }
+    - { key: 'tag', link: '/tags/index.html', icon: 'iconfont icon-tags-fill' }
+    - { key: 'about', link: '/about/index.html', icon: 'iconfont icon-user-fill' }
+    - { key: 'links', link: '/links/index.html', icon: 'iconfont icon-link-fill' } # 友链页，把前面#去掉即可展示
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.dadatom.com
