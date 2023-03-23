@@ -56,14 +56,28 @@ prismjs:
   line_number: true
   tab_replace: ''
 
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
+index:
+  banner_img: /img/sacrifice2_4k.jpg # 首页 Banner 头图，以下相同
+  banner_img_height: 100 # 头图高度，屏幕百分比，available: 0 - 100
+  banner_mask_alpha: 0.3 # 头图黑色蒙版的透明度，available: 0 - 1.0， 0 是完全透明（无蒙版），1 是完全不透明
+  post_default_img: '' # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
+  slogan: # 首页副标题的独立设置
+    enable: true # 为 false 则不显示任何内容
+    text: '记录所有的时光' # 为空则按 hexo config.subtitle 显示
+  auto_excerpt:
+    enable: true
+  post_url_target: _self # available: _blank | _self
+  post_meta: # 是否显示文章信息（时间、分类、标签）
+    date: false
+    category: false
+    tag: false
+  fun_features:
+    typing: # 为 subtitle 添加打字机效果
+      enable: true
+      typeSpeed: 100 # 打印速度
+      cursorChar: "|" # 游标字符
+      loop: false # 是否循环播放效果
+
 
 # Category & Tag
 default_category: uncategorized
