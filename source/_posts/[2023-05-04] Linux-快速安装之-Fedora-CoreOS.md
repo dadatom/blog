@@ -216,3 +216,6 @@ $ ssh core@xxx.xxx.xxx.xxx
 
 *<small style="vertical-align: top;">[1]</small> vmware安装fedora-coreos: [https://www.cnblogs.com/xiaochina/p/13377930.html](https://www.cnblogs.com/xiaochina/p/13377930.html)*
 *<small style="vertical-align: top;">[2]</small> 3种方法更改Linux系统的主机名(hostname): [https://blog.51cto.com/u_15278282/2931915](https://blog.51cto.com/u_15278282/2931915)*
+*<small style="vertical-align: top;">[3]</small> Fedora CoreOS: [https://yeasy.gitbook.io/docker_practice/coreos/intro](https://yeasy.gitbook.io/docker_practice/coreos/intro)*
+*<small style="vertical-align: top;">[4]</small> Installing CoreOS on Bare Metal: [https://docs.fedoraproject.org/en-US/fedora-coreos/bare-metal/](https://docs.fedoraproject.org/en-US/fedora-coreos/bare-metal/)*
+*<small style="vertical-align: top;">[5]</small> Configuration specifications: [https://coreos.github.io/butane/specs/](https://coreos.github.io/butane/specs/)*
